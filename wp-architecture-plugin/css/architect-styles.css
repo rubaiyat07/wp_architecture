@@ -1,0 +1,152 @@
+/* Main Architect Profile Styles */
+.architect-single-profile {
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.architect-photo {
+    margin-bottom: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.architect-photo img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.architect-contact p {
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.architect-contact strong {
+    display: inline-block;
+    width: 80px;
+    color: #555;
+}
+
+.hire-architect-btn {
+    width: 100%;
+    padding: 10px;
+    font-weight: 600;
+}
+
+.architect-bio {
+    line-height: 1.7;
+    color: #444;
+}
+
+.architect-stats {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 25px 0;
+}
+
+.stat-item {
+    text-align: center;
+    padding: 10px;
+}
+
+.stat-number {
+    font-size: 24px;
+    font-weight: 700;
+    color: #2c3e50;
+    display: block;
+}
+
+.stat-label {
+    font-size: 13px;
+    color: #7f8c8d;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.specializations .badge {
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding: 8px 12px;
+    font-size: 13px;
+}
+
+/* Responsive Table Styles */
+.architect-profiles-container {
+    overflow-x: auto;
+    margin-bottom: 30px;
+}
+
+.wp-list-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0;
+}
+
+.wp-list-table th {
+    background-color: #2c3e50;
+    color: white;
+    padding: 12px 15px;
+    text-align: left;
+}
+
+.wp-list-table td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #eee;
+    vertical-align: middle;
+}
+
+.wp-list-table tr:hover td {
+    background-color: #f5f5f5;
+}
+
+.architect-thumbnail img {
+    max-width: 60px;
+    height: auto;
+    border-radius: 4px;
+}
+
+/* Modal Styles */
+#addArchitectModal .modal-content {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#addArchitectModal .modal-header {
+    background-color: #2c3e50;
+    color: white;
+    border-bottom: none;
+}
+
+#addArchitectModal .modal-body {
+    padding: 25px;
+}
+
+#addArchitectModal .form-label {
+    font-weight: 600;
+    color: #34495e;
+    margin-bottom: 5px;
+}
+
+#addArchitectModal .btn-close {
+    filter: invert(1);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .architect-single-profile .row > div {
+        margin-bottom: 20px;
+    }
+    
+    .architect-stats .col-md-4 {
+        margin-bottom: 15px;
+    }
+    
+    .wp-list-table {
+        min-width: 800px;
+    }
+}
