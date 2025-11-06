@@ -1,7 +1,3 @@
-Based on your repository **`wp_architecture`**, which appears to be a **WordPress theme and plugin combo**, I'll create a structured `README.md` file for GitHub.  
-
----
-
 # **WP Architecture – Custom WordPress Theme & Plugin**  
 
 ![WordPress](https://img.shields.io/badge/WordPress-5.0%2B-blue)  
